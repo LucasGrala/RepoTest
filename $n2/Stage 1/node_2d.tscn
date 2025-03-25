@@ -1,14 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://cmk35nlqhdtyv"]
+[gd_scene load_steps=6 format=3 uid="uid://cmk35nlqhdtyv"]
 
 [ext_resource type="Texture2D" uid="uid://bijoawlverswe" path="res://Sprites/474021962_18039323984593564_5994429896059814247_n.jpg" id="1_ncpx2"]
 [ext_resource type="PackedScene" uid="uid://bjwaugxy2nnbo" path="res://Player/player.tscn" id="2_t33an"]
 [ext_resource type="PackedScene" uid="uid://dnrdqcowcxwk4" path="res://Stage 1/camera_2d.tscn" id="3_edj1u"]
 [ext_resource type="PackedScene" uid="uid://qhkbfj3geyj3" path="res://Stage 1/static_body_floor.tscn" id="4_qcto0"]
+[ext_resource type="Texture2D" uid="uid://bsy4xsb8strro" path="res://Sprites/screenshot of spider man.jpg" id="5_t33an"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(576.25, 229)
+position = Vector2(835, 167)
 scale = Vector2(1.3907, 1.38043)
 texture = ExtResource("1_ncpx2")
 
@@ -22,3 +23,8 @@ scale = Vector2(4, 4)
 
 [node name="StaticBody2D" parent="." instance=ExtResource("4_qcto0")]
 position = Vector2(594, 624)
+
+[node name="ScreenshotOfSpiderMan" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(532, 336)
+texture = ExtResource("5_t33an")
