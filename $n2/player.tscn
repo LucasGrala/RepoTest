@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjwaugxy2nnbo"]
+
+[ext_resource type="Texture2D" uid="uid://cdg8khykqu1ku" path="res://god_amoung_spoons2.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://wrxxuc7iw2wy" path="res://character_body_2d.gd" id="1_onrkg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
+size = Vector2(967, 814)
+
+[node name="Player" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_onrkg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-1.5, -1)
+shape = SubResource("RectangleShape2D_onrkg")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("1_4flbx")

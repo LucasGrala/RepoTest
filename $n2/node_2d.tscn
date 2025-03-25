@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://cmk35nlqhdtyv"]
+
+[ext_resource type="Texture2D" uid="uid://bijoawlverswe" path="res://474021962_18039323984593564_5994429896059814247_n.jpg" id="1_wtcfe"]
+[ext_resource type="PackedScene" uid="uid://bjwaugxy2nnbo" path="res://player.tscn" id="2_0e48y"]
+[ext_resource type="PackedScene" uid="uid://dnrdqcowcxwk4" path="res://camera_2d.tscn" id="3_epypp"]
+[ext_resource type="PackedScene" uid="uid://qhkbfj3geyj3" path="res://static_body_floor.tscn" id="4_0hol4"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576.25, 229)
+scale = Vector2(1.3907, 1.38043)
+texture = ExtResource("1_wtcfe")
+
+[node name="Player" parent="." instance=ExtResource("2_0e48y")]
+position = Vector2(140, 122)
+scale = Vector2(0.25, 0.25)
+
+[node name="Camera2D" parent="Player" instance=ExtResource("3_epypp")]
+position = Vector2(1748, 808)
+scale = Vector2(4, 4)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("4_0hol4")]
+position = Vector2(594, 624)
