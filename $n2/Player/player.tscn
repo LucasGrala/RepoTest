@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bjwaugxy2nnbo"]
 
-[ext_resource type="Texture2D" uid="uid://cdg8khykqu1ku" path="res://Sprites/god_amoung_spoons2.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://wrxxuc7iw2wy" path="res://Player/character_body_2d.gd" id="1_onrkg"]
+[ext_resource type="Texture2D" uid="uid://cys1fciiqce6p" path="res://Sprites/ClearBack_Sonic_AI_inverted.png" id="2_4ntmi"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
 size = Vector2(967, 814)
@@ -16,4 +16,6 @@ position = Vector2(-1.5, -1)
 shape = SubResource("RectangleShape2D_onrkg")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-texture = ExtResource("1_4flbx")
+position = Vector2(-17, -34)
+scale = Vector2(1.25, 1.25)
+texture = ExtResource("2_4ntmi")
