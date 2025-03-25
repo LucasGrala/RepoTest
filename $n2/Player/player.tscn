@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bjwaugxy2nnbo"]
 
-[ext_resource type="Texture2D" uid="uid://cdg8khykqu1ku" path="res://god_amoung_spoons2.png" id="1_4flbx"]
-[ext_resource type="Script" uid="uid://wrxxuc7iw2wy" path="res://character_body_2d.gd" id="1_onrkg"]
+[ext_resource type="Texture2D" uid="uid://cdg8khykqu1ku" path="res://Sprites/god_amoung_spoons2.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://wrxxuc7iw2wy" path="res://Player/character_body_2d.gd" id="1_onrkg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
 size = Vector2(967, 814)

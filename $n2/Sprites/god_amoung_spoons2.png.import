@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdg8khykqu1ku"
-path="res://.godot/imported/god_amoung_spoons2.png-4eb4e11bb0008472d598cc3572d89e40.ctex"
+path="res://.godot/imported/god_amoung_spoons2.png-6df6074120182dbcb5a4bdaacacfd4ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://god_amoung_spoons2.png"
-dest_files=["res://.godot/imported/god_amoung_spoons2.png-4eb4e11bb0008472d598cc3572d89e40.ctex"]
+source_file="res://Sprites/god_amoung_spoons2.png"
+dest_files=["res://.godot/imported/god_amoung_spoons2.png-6df6074120182dbcb5a4bdaacacfd4ec.ctex"]
 
 [params]
 

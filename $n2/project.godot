@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="$N2"
-run/main_scene="res://node_2d.tscn"
+run/main_scene="res://Stage 1/node_2d.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Sprites/icon.svg"
 
 [input]
 
